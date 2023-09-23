@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+
+
+/* Navbar */
+
+.container-navbar {
+    background-color: rgb(140, 140, 140);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 20px;
+}
+
+.container-navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.container-navbar .list  {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list .items a {
+  text-decoration: none;
+}
+
+/* Banner */
+
+.container-banner {
+    background-color: #545353;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-banner .title h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.container-banner .title p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* About */
+
+.container-about {
+    display: flex;
+    height: 50vh;
+    background-color: aliceblue;
+    justify-content: center;
+}
+
+.container-about h2 {
+    color: black;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+.container-about p {
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    align-self: center;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+}
